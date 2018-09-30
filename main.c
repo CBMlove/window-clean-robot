@@ -3,7 +3,10 @@
 #include "SCI.h"
 typedef char u8;
 typedef unsigned int u16;
-
+/***************************************************
+//在线调试的时候存在bug
+//并且电机停止之后，重新启动，带不动
+**********************************************/
 #define BUZZER PTBD_PTBD6
 #define RELAY1 PTCD_PTCD6
 #define RELAY2 PTCD_PTCD7
